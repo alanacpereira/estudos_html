@@ -1,0 +1,41 @@
+/* Quando o css não alterar quer dizer que o link está errado
+( o que busca o css no html) */
+h1 {
+    font-size: 40px;
+    color: white;
+    background-color: darkred;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    /*Deixar a borda arredondada(radius) */
+    padding: 10px;
+    /* Margem interna(padding) */
+}
+
+h4 {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(80, 70, 70);
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Menu Horizontal (acrescento o ul) pq se não estiliza a div,
+se tiver outro menu estiliza todos iguais, sem o ul (não precisa de vírula,
+pq não vou agrupar)*/
+#menu ul {
+    padding: 10px;
+    margin: 0;
+    background-color: #2b1010;
+    list-style: none;
+    /* Tira os pontos dos tópicos */
+
+}
