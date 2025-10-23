@@ -37,5 +37,14 @@ pq não vou agrupar)*/
     background-color: #2b1010;
     list-style: none;
     /* Tira os pontos dos tópicos */
+}
 
+#menu ul li {
+    /* É o que tem na tela */
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 10px 30px;
+    text-decoration: none;
 }
