@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacote de Viagens - tsushima</title>
+    <!--Puxamos da pasta css, nosso arquivo css-->
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
@@ -12,14 +13,70 @@
     <h1>PACOTES DE VIAGENS</h1>
     <h2>DESTINO: ILHA TSUSHIMA</h2>
     <hr>
+    <!--iniciamos uma tabela, th para cabeçario da tabela-->
     <table widht="100%" id="tabela">
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th>Local</th>
+        <th>Foto do Local</th>
+        <th>Valor de pacote</th>
+        <th>Quantidade</th>
+        <th>Valor Total</th>
 
+        <!--onde construimos a tabela(linha,células,imagens)-->
+        <tr>
+            <td>Ilha Iki</td>
+            <td> <img src="imagens/img01.jpg"> </td>
+            <td>R$15.000,00</td>
+            <td>1</td>
+            <td>R$15.000,00</td>
+        </tr>
+        <tr>
+            <td>Vila Adachi</td>
+            <td> <img src="imagens/img02.jpg"> </td>
+            <td>R$15.000,00</td>
+            <td>1</td>
+            <td>R$15.000,00</td>
+        </tr>
+        <tr>
+            <td>Templo Budista</td>
+            <td> <img src="imagens/img03.jpg"> </td>
+            <td>R$15.000,00</td>
+            <td>1</td>
+            <td>R$15.000,00</td>
+        </tr>
+        <tr>
+            <td>Castelo Sakai</td>
+            <td> <img src="imagens/img04.jpg"> </td>
+            <td>R$15.000,00</td>
+            <td>1</td>
+            <td>R$15.000,00</td>
+        </tr>
+        <!--Usamos a seta para baixo(a que mostra a quant.de linhas)
+        assim podemos deixar como se estivesse concluído(check list)-->
     </table>
+    <hr>
+
+    <h2>DADOS PARA CONTATO</h2>
+    <table id="contato">
+        <!--Aqui estamos fazendo a segunda tabela (no type eu "limito" o que o usuário escreverá)-->
+        <tr>
+            <td>Nome:<input type="text" name="nome"></td>
+        </tr>
+        <tr>
+            <td>Email:<input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Telefone:<input type="tel" name="tel"></td>
+        </tr>
+        <tr>
+            <td>Endereço:<input type="text" name="end"></td>
+        </tr>
+        <tr>
+            <td id="botao">Clique para enviar</td>
+        </tr>
+    </table>
+    
+    <br><br>
+    <footer>Viaje conosco e sua HONRA jamais morrerá!!</footer>
 </body>
 
 </html>
