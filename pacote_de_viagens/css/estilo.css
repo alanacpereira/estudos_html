@@ -58,3 +58,21 @@ td {
     font-size: 20px;
     color: black;
 }
+
+#botao {
+    color: red;
+    text-shadow: black 1px 1px;
+    /* São as bordas( teoricamente em pares/ex: top e bottom) */
+    text-align: right;
+}
+
+hr {
+    border: 10px;
+}
+
+footer {
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
