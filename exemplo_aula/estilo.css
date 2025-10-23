@@ -11,6 +11,7 @@ body {
     background-image: url(https://sp.senai.br/images/senai.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    /* attachement é para especificar se a imagem deve ou não rolar com o resto da página */
     background-attachment: fixed;
 
 }
