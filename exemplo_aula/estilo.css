@@ -1,0 +1,16 @@
+h1 {
+    background-color: red;
+}
+
+h2 {
+    background-color: orange;
+}
+
+/* Coloco body, pois quero quero que a imagem fique no fundo( uma imagem de fundo) */
+body {
+    background-image: url(https://sp.senai.br/images/senai.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
