@@ -1,0 +1,62 @@
+/* Tenho que puxar o body( porque tudo que eu fiz, eu quero que seja centralizado
+e tudo que "eu quero" está no body) */
+body {
+    text-align: center;
+}
+
+/* Estilizar a fonte dos meus textos */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Agrupei os textos para mudar o tamanho e fonte */
+h1,
+h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estiliza todas as imagens sem precisar agrupar, pq não pula linha(ou espaçamento) */
+img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Todos que estão abaixo são meus id,
+cada um eu puxo para estilizar do meu jeito */
+#css {
+    font-size: 36px;
+    color: salmon;
+    font-weight: bold;
+}
+
+#fundo {
+    background-color: lightblue;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#borda {
+    border: solid;
+    border-color: olive;
+    font-size: 32px;
+}
+
+#mistura1 {
+    border: 2px solid olive;
+    font-size: 32px;
+    color: seagreen;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mistura2 {
+    background-color: slateblue;
+    font-size: 72px;
+    font-weight: bolder;
+    font-style: italic;
+    border-color: olive;
+    color: tomato;
+    text-decoration: underline;
+}
