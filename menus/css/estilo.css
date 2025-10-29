@@ -45,6 +45,19 @@ pq não vou agrupar)*/
 }
 
 #menu ul li a {
-    padding: 10px 30px;
+    /* Margem interna */
+    padding: 10px 30px; 
+    /* Quando fica o interline(ou azul a escrita)none, para não ficar no caso né */
     text-decoration: none;
+    background-color: #ededed;
+    /* Esse display faz com que o link se comporte como uma caixinha,mas fica na mesma linha */
+    display: inline-block;
+    /* Borda ( Na parte de baixo do quadrado/teoricamente) */
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* Borda arredondada (radius) */
+    border-radius: 5px;
+    margin: 0 50px;
+
 }
