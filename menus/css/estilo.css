@@ -64,7 +64,8 @@ pq não vou agrupar)*/
 #menu ul li a:hover {
     background-color: #86cdf3;
     color: blue;
-    border-bottom: 3px solid #2c8ff9;
+    background-color: #2c8ff9;
+    border-bottom: 3px solid;
 }
 
 /* Menu vertical 
@@ -99,6 +100,6 @@ Esse menu irá selecionar o ul que estiver dentro do elemento id menuv*/
 
 #menuv ul li a:hover {
     background-color: #2c8ff9;
-    color: #86cdf3;
+    color: blue;
     border-bottom: 3px solid #333;
 }
