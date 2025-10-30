@@ -1,0 +1,52 @@
+body {
+    background-image: url('../imagens/capacete-ayrton-senna-senna.jpg');
+    /* Utilizo o cover para que a imagem cubra toda a area visível do meu body
+    (precisando ou não cortar a imagem) */
+    background-size: cover;
+    /* Coloco o attachment/junto ao fixed para ficar a imagem fizada totalmente na página */
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: rgb(254, 2, 2) 1px 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gold;
+    border: red solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.imagem {
+    border: 15px solid white;
+    /* Largura e altura em porcentagem do elemento pai(que é o ul) */
+    width: 20%;
+    height: 20%;
+    /* Borda arredondada */
+    box-shadow: 3px 3px red;
+    /* Vai deixar o elemento com a referência para posicionar as coisas dentro dele,
+    permitindo o deslocamento(coloco o relative para poder personalizar a posição da imagem) */
+    position: relative;
+    /* Quando houver mudança que possa ser animada (será feita SUAVEMENTE em 0,25s) */
+    transition: linear 0.25s;
+}
+
+.rotacao1 {
+    /* O transform é para fazer uma animação
+    no rotate é para a rotaçãoverflow: ( ou seja, vai fazer um giro de 5 graus no sentido horário) */
+    transform: rotate(5deg);
+}
+
+.rotacao2 {
+    /* Como coloquei -5graus, será girado no sentido anti-horário */
+    transform: rotate(-5deg);
+}
+
+/* Coloquei o hover na minha classe para poder fazer uma ação */
+.imagem:hover {
+    /* Irá desfazer a rotação ( vai volta pra posição reta(estática)), pq usamos o rotate 0 */
+    /* com o scale, que é para dar zoom(em 1.5 o tamanho, que eu defini) */
+    transform: rotate(0deg) scale(1.5);
+
+}
