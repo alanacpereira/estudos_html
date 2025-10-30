@@ -1,8 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-h4{
+/* Estilizei minha fonte, criando um "quadrado" para ele */
+h4 {
     font-size: 32px;
+    color: #ffffff;
+    background-color: rgb(10, 72, 244);
+    border: rgb(74, 147, 255) 2px solid;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Vou estilizar a nav da clsse menu */
+.menu {
+    /* background-size: cover;
+    display: block; */
+    width: 100%;
+    height: 70px;
+    background-color: rgb(10, 72, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+.menu ul li {
+    width: 200px;
+    float: left;
 }
