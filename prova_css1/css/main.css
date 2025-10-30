@@ -40,11 +40,12 @@ h4 {
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color:#2b1010;
+    background-color: #2b1010;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
 }
+
 
 /* mexendo no sub menu */
 .menu ul ul {
@@ -64,5 +65,5 @@ h4 {
 .menu ul ul li {
     float: none;
     border-bottom: solid 1px #ccc;
-    
+
 }
